@@ -1,0 +1,336 @@
+2021-11-10 10:58:52.671  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 16856 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 10:58:52.680  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 10:58:54.126  INFO 16856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 10:58:54.312  INFO 16856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172ms. Found 6 repository interfaces.
+2021-11-10 10:58:55.098  INFO 16856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59d21e49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 10:58:55.519  INFO 16856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 10:58:55.919  INFO 16856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 10:58:56.065  INFO 16856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 10:58:56.137  INFO 16856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 10:58:56.139  INFO 16856 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 10:58:56.314  INFO 16856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 10:58:56.795  INFO 16856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 10:58:59.025  INFO 16856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 10:58:59.495  INFO 16856 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 10:59:00.761  INFO 16856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 10:59:00.827  WARN 16856 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 10:59:01.507  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 9.332 seconds (JVM running for 10.468)
+2021-11-10 10:59:01.810  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 10:59:01.908  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 10:59:01.915  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 10:59:01.933  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 10:59:01.958  INFO 16856 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=23 added successfully to Entreprise with id=12
+2021-11-10 10:59:02.670  INFO 16856 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 10:59:02.680  INFO 16856 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 10:59:02.683  INFO 16856 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 10:59:02.692  INFO 16856 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:07:31.685  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 5552 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:07:31.687  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:07:32.574  INFO 5552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:07:32.674  INFO 5552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 6 repository interfaces.
+2021-11-10 11:07:33.095  INFO 5552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2920aae0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:07:33.341  INFO 5552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:07:33.654  INFO 5552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:07:33.723  INFO 5552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:07:33.797  INFO 5552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:07:33.799  INFO 5552 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:07:33.968  INFO 5552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:07:34.453  INFO 5552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:07:37.134  INFO 5552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:07:37.601  INFO 5552 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:07:38.975  INFO 5552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:07:39.050  WARN 5552 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:07:39.706  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 8.352 seconds (JVM running for 9.248)
+2021-11-10 11:07:39.936  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:07:40.011  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:07:40.018  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:07:40.035  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:07:40.058  INFO 5552 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=27 added successfully to Entreprise with id=14
+2021-11-10 11:07:40.157  INFO 5552 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:07:40.162  INFO 5552 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:07:40.165  INFO 5552 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:07:40.170  INFO 5552 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:09:03.171  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 5772 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:09:03.172  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:09:04.009  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:09:04.116  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 6 repository interfaces.
+2021-11-10 11:09:04.584  INFO 5772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f23dc97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:09:04.848  INFO 5772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:09:05.064  INFO 5772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:09:05.137  INFO 5772 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:09:05.219  INFO 5772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:09:05.221  INFO 5772 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:09:05.386  INFO 5772 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:09:05.885  INFO 5772 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:09:09.260  INFO 5772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:09:09.643  INFO 5772 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:09:10.849  INFO 5772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:09:10.931  WARN 5772 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:09:11.587  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 8.742 seconds (JVM running for 9.716)
+2021-11-10 11:09:11.811  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:09:11.870  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:09:11.877  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:09:11.894  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:09:11.911  INFO 5772 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=31 added successfully to Entreprise with id=16
+2021-11-10 11:09:12.041  INFO 5772 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:09:12.045  INFO 5772 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:09:12.050  INFO 5772 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:09:12.055  INFO 5772 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:19:39.697  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 5700 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:19:39.699  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:19:40.654  INFO 5700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:19:40.785  INFO 5700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121ms. Found 6 repository interfaces.
+2021-11-10 11:19:41.281  INFO 5700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47734d0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:19:41.840  INFO 5700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:19:42.207  INFO 5700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:19:42.656  INFO 5700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:19:43.975  INFO 5700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:19:43.977  INFO 5700 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:19:46.939  INFO 5700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:19:47.620  INFO 5700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:19:50.629  INFO 5700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:19:51.151  INFO 5700 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:19:52.832  INFO 5700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:19:52.913  WARN 5700 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:19:53.587  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 14.249 seconds (JVM running for 15.186)
+2021-11-10 11:19:53.991  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:19:54.071  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:19:54.077  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:19:54.095  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:19:54.115  INFO 5700 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=35 added successfully to Entreprise with id=18
+2021-11-10 11:19:54.231  INFO 5700 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:19:54.234  INFO 5700 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:19:54.238  INFO 5700 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:19:54.243  INFO 5700 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:21:05.137  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 12352 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:21:05.139  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:21:05.996  INFO 12352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:21:06.102  INFO 12352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 6 repository interfaces.
+2021-11-10 11:21:06.508  INFO 12352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f36c1b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:21:06.776  INFO 12352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:21:07.240  INFO 12352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:21:07.365  INFO 12352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:21:07.444  INFO 12352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:21:07.446  INFO 12352 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:21:07.616  INFO 12352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:21:08.116  INFO 12352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:21:10.522  INFO 12352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:21:10.946  INFO 12352 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:21:12.214  INFO 12352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:21:12.303  WARN 12352 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:21:12.965  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 8.181 seconds (JVM running for 9.077)
+2021-11-10 11:21:13.185  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:21:13.242  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:21:13.249  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:21:13.269  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:21:13.293  INFO 12352 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=39 added successfully to Entreprise with id=20
+2021-11-10 11:21:13.373  INFO 12352 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:21:13.376  INFO 12352 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:21:13.380  INFO 12352 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:21:13.385  INFO 12352 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:21:39.563  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 9860 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:21:39.565  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:21:40.436  INFO 9860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:21:40.538  INFO 9860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 6 repository interfaces.
+2021-11-10 11:21:40.978  INFO 9860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc40e96f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:21:41.245  INFO 9860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:21:41.487  INFO 9860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:21:41.553  INFO 9860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:21:41.631  INFO 9860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:21:41.634  INFO 9860 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:21:41.801  INFO 9860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:21:42.313  INFO 9860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:21:43.939  INFO 9860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:21:44.404  INFO 9860 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:21:46.792  INFO 9860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:21:46.963  WARN 9860 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:21:48.251  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 9.03 seconds (JVM running for 9.904)
+2021-11-10 11:21:48.940  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:21:49.064  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:21:49.074  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:21:49.104  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:21:49.146  INFO 9860 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=43 added successfully to Entreprise with id=22
+2021-11-10 11:21:49.371  INFO 9860 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:21:49.381  INFO 9860 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:21:49.387  INFO 9860 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:21:49.398  INFO 9860 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:28:39.355  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 9728 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:28:39.358  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:28:40.271  INFO 9728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:28:40.392  INFO 9728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 6 repository interfaces.
+2021-11-10 11:28:40.909  INFO 9728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5212977] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:28:41.154  INFO 9728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:28:41.417  INFO 9728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:28:41.484  INFO 9728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:28:41.559  INFO 9728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:28:41.561  INFO 9728 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:28:41.725  INFO 9728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:28:42.221  INFO 9728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:28:44.371  INFO 9728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:28:44.872  INFO 9728 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:28:46.138  INFO 9728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:28:46.222  WARN 9728 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:28:46.881  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 7.9 seconds (JVM running for 8.897)
+2021-11-10 11:28:47.087  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:28:47.152  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:28:47.157  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:28:47.172  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:28:47.191  INFO 9728 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=47 added successfully to Entreprise with id=24
+2021-11-10 11:28:47.277  INFO 9728 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:28:47.281  INFO 9728 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:28:47.286  INFO 9728 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:28:47.294  INFO 9728 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:56:27.299  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 17040 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 11:56:27.300  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 11:56:29.970  INFO 17040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:56:30.291  INFO 17040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190ms. Found 6 repository interfaces.
+2021-11-10 11:56:31.110  INFO 17040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f36c1b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:56:31.780  INFO 17040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:56:32.241  INFO 17040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:56:33.560  INFO 17040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:56:34.022  INFO 17040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 11:56:34.024  INFO 17040 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:56:34.944  INFO 17040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:56:36.253  INFO 17040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 11:56:38.018  INFO 17040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:56:38.588  INFO 17040 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:56:40.670  INFO 17040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:56:40.994  WARN 17040 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:56:41.511  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 15.208 seconds (JVM running for 17.475)
+2021-11-10 11:56:41.906  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 11:56:41.995  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:56:42.000  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 11:56:42.013  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 11:56:42.032  INFO 17040 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=51 added successfully to Entreprise with id=26
+2021-11-10 11:56:42.099  INFO 17040 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:56:42.104  INFO 17040 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:56:42.109  INFO 17040 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:56:42.118  INFO 17040 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 12:10:43.279  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 12856 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 12:10:43.280  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 12:10:44.130  INFO 12856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 12:10:44.250  INFO 12856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 6 repository interfaces.
+2021-11-10 12:10:44.683  INFO 12856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e6d554f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 12:10:44.951  INFO 12856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 12:10:45.224  INFO 12856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 12:10:45.288  INFO 12856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 12:10:45.371  INFO 12856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 12:10:45.373  INFO 12856 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 12:10:45.536  INFO 12856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 12:10:46.001  INFO 12856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 12:10:47.730  INFO 12856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:10:48.143  INFO 12856 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 12:10:49.555  INFO 12856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:10:49.633  WARN 12856 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 12:10:50.654  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 7.706 seconds (JVM running for 8.692)
+2021-11-10 12:10:51.085  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 12:10:51.193  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:10:51.201  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 12:10:51.227  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:10:51.268  INFO 12856 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=55 added successfully to Entreprise with id=28
+2021-11-10 12:10:51.448  INFO 12856 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:10:51.454  INFO 12856 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:10:51.460  INFO 12856 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 12:10:51.467  INFO 12856 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 12:11:47.623  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 16744 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 12:11:47.628  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 12:11:48.470  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 12:11:48.582  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 6 repository interfaces.
+2021-11-10 12:11:49.016  INFO 16744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23df008] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 12:11:49.271  INFO 16744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 12:11:50.234  INFO 16744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 12:11:50.301  INFO 16744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 12:11:50.378  INFO 16744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 12:11:50.380  INFO 16744 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 12:11:50.535  INFO 16744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 12:11:50.991  INFO 16744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 12:11:52.767  INFO 16744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:11:53.171  INFO 16744 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 12:11:54.375  INFO 16744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:11:54.620  WARN 16744 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 12:11:55.140  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 7.906 seconds (JVM running for 8.767)
+2021-11-10 12:11:55.345  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 12:11:55.406  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:11:55.410  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 12:11:55.424  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:11:55.443  INFO 16744 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=59 added successfully to Entreprise with id=30
+2021-11-10 12:11:55.515  INFO 16744 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:11:55.519  INFO 16744 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:11:55.522  INFO 16744 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 12:11:55.526  INFO 16744 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 12:32:14.459  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 11248 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 12:32:14.463  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 12:32:15.856  INFO 11248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 12:32:16.095  INFO 11248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210ms. Found 6 repository interfaces.
+2021-11-10 12:32:17.143  INFO 11248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f43639c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 12:32:18.010  INFO 11248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 12:32:18.986  INFO 11248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 12:32:19.299  INFO 11248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 12:32:19.617  INFO 11248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 12:32:19.629  INFO 11248 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 12:32:20.388  INFO 11248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 12:32:21.818  INFO 11248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 12:32:27.794  INFO 11248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:32:29.865  INFO 11248 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 12:32:32.127  INFO 11248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:32:32.256  WARN 11248 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 12:32:33.033  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 19.211 seconds (JVM running for 21.649)
+2021-11-10 12:32:34.244  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 12:32:34.447  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:32:34.457  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 12:32:34.480  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:32:34.520  INFO 11248 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=63 added successfully to Entreprise with id=32
+2021-11-10 12:32:34.950  INFO 11248 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:32:34.955  INFO 11248 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:32:35.154  INFO 11248 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 12:32:35.162  INFO 11248 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 12:33:35.913  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : Starting DepartementTest on DESKTOP-9O0GE8B with PID 10300 (started by lenovo in C:\devops\Timesheet-spring-boot-core-data-jpa-mvc-REST-1)
+2021-11-10 12:33:35.916  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : No active profile set, falling back to default profiles: default
+2021-11-10 12:33:37.033  INFO 10300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 12:33:37.280  INFO 10300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 230ms. Found 6 repository interfaces.
+2021-11-10 12:33:38.145  INFO 10300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f43639c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 12:33:38.538  INFO 10300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 12:33:39.275  INFO 10300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 12:33:39.428  INFO 10300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 12:33:39.586  INFO 10300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-10 12:33:39.588  INFO 10300 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 12:33:39.878  INFO 10300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 12:33:40.413  INFO 10300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-10 12:33:44.414  INFO 10300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:33:45.640  INFO 10300 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 12:33:48.552  INFO 10300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:33:48.780  WARN 10300 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 12:33:49.794  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : Started DepartementTest in 14.483 seconds (JVM running for 17.972)
+2021-11-10 12:33:50.371  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : Entreprise added successfully!
+2021-11-10 12:33:50.511  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : Start Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:33:50.525  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : [info]
+2021-11-10 12:33:50.565  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    :  End Method getAllDepartementsNamesByEntreprise 
+2021-11-10 12:33:50.624  INFO 10300 --- [main] tn.esprit.spring.test.DepartementTest    : Departement with id=67 added successfully to Entreprise with id=34
+2021-11-10 12:33:51.483  INFO 10300 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 12:33:51.488  INFO 10300 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 12:33:51.914  INFO 10300 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 12:33:51.930  INFO 10300 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
